@@ -1,0 +1,74 @@
+Document :System Requirement Specification 
+
+Title : Online Hotel Reservation 
+Team : 
+Admin, Direct Customer, Indirect Customer, Owner, Manager, Receptionist,  Room service.
+Objective :
+	The online hotel reservation system  provide detailed description for the requirement of the         online reservation system. This will help the people of the long distances who would stay in hotels.it would be comfortable for them to search for rooms with any device. 
+
+Scope : 
+	There will be explained in details in 3 requirements sections. There are three types of end users for this room booking system. 
+1.The first ones are the customers who uses the system for the reservation purpose.
+2. The other end users are the admin user the management users who are given several authentication to the hotel management system. 
+3. The booking module is used to reserve the hotel rooms. The customer can book the rooms through online or through phone or in person. The customer needs to enter their personal details and have to pay 10% of the total payment to confirm the booking.
+Requirements :
+Functional Requirements:
+1. Anyone can book the room from anywhere they are necessary to book the room.
+2. They can book the room by paying cash online only or by paying when they are check-in. 
+Any anonymous User will be able to view different rooms available for booking. Any User will be able select room to view it from inside. Staff will be able to approve or reject request for booking of rooms.
+Staff will be able to track rooms available for booking
+Consumer will be able to  add or remove booking from hotel reservation portal.
+Customer will be able to update customer details which have been already added to registration form.
+Registered Customer will be able to reserve room with the help of hotel reservation portal maintained by management system. Registered Customer will be able to cancel booking within 24 hours. Registered customer get booking history. Registered customer can get details of order from booking room.
+
+
+Management team will be able get details of booking of a particular Customer. Management team will be able to cancel, reject or approve booking been placed by consumer due to some policies of Business.
+
+
+Owner will be able to see the summary of booking room, rejected from management System. Owner will get Business insight by observing  daily operations  with the of getting booking information.
+
+
+
+
+
+
+Non-Functional Requirements:
+Performance requirements define acceptable response time for system functionality. 
+1. The load time for user interface screens shall take no longer than two seconds. 
+2. The log in information shall be verified within few seconds.
+. Queries shall return results within five seconds. 
+Security:-
+Customer service representatives and managers will be able to log in to the hotel management system. Customer service representatives will have access to the reservation/booking and food subsystems. Access to the various subsystems will be protected by user log in screen that requires a user name and password.
+Safety:
+A cloud backup will be provided in case of database gets crashed.
+Availability:-
+	Uptime :   24* 7  available which is equal to  99.999% of its up time.
+
+Maintainability: 
+         A third party database software will be used to maintain system data persistence.
+A readymade Web Server will be installed to host online hotel reservation portal (Web Site) to management server capabilities.
+Hotel operations team will easily monitor and configure System using Administrative tools provided by Servers.
+Separate environment will be maintained for system for isolation in production, testing, and development.
+
+
+Portability:
+ 	
+	PDA: Portable Device Application
+ System will provide portable User Interface (HTML, CSS, JS) through users will be able to access online hotel reservation portal.
+ System can be deployed to single server, multi-server, to any OS, Cloud (Azure or AWS or GCP)
+
+
+
+Accessibility:
+Only registered customer will be able to booked hotel room after authentication.
+Management team can reject or approve request provided.
+Owner will be able to view daily, weekly, monthly, annual business Growth through customized dashboard. After room booking customer will be able to see the booking status.
+
+
+Durability:
+System will retain customer room booking for 15 minutes even though customer loose internet connection and join again. 
+Modularity:
+System will designed and developed using reusable, independent or dependent business scenarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+	
+
